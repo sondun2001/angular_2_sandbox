@@ -1,0 +1,31 @@
+{
+  "name": "mess_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sondun2001@github.com/sondun2001/mess_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sondun2001/mess_web/issues"
+  },
+  "homepage": "https://github.com/sondun2001/mess_web#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.46",
+    "angular2-bootstrap": "^0.2.1",
+    "es6-shim": "^0.33.13",
+    "systemjs": "0.19.2"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  }
+}
